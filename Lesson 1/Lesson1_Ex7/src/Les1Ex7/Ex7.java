@@ -10,6 +10,7 @@ public class Ex7 {
     }
 
     public static void helloName (String n){
+
         System.out.println("Привет," + n);
     }
 
