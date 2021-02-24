@@ -13,7 +13,7 @@ public class Lesson_5 {
         arrPers[4]=new Person("Веселова Ирина","секретарша","veselova@mail.ru", "89214475689",100000,34);
 
         for (int i=0;i<=4;i++){
-            if (arrPers[i].age>40){
+            if (arrPers[i].getAge()>40){
                 arrPers[i].printinfo();
             }
         }
